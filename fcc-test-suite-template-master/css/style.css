@@ -1,3 +1,15 @@
 #header{
-position: fixed;
+  position: fixed;
+  background: red;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@media (min-width: 1400px) {
+  #header {
+    background: green;
+  }
 }

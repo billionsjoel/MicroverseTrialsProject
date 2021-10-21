@@ -1,15 +1,42 @@
-#header{
-  position: fixed;
-  background: red;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+body,html{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
 }
 
+.container{
+width: 100%;
+height: 100vh;
+background-color: #fff;
+text-align: center;
+}
+img{
+margin-left: 10%;
+}
+#nav-bar{
+margin-right: 10%;
+}
+#header{
+  position: fixed;
+  background: Orange;
+  color: #000;
+  width: 100%;
+  padding: 10px;
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+margin-top: -5rem;
+}
+
+#video_section{
+margin-top: 5rem;
+}
 
 
 @media (min-width: 1400px) {
   #header {
-    background: green;
+  background: #000;
+  color: #fff;
   }
+
 }

@@ -5,19 +5,6 @@
   <meta charset="UTF-8">
   <title>Fork Me! FCC: Test Suite Template</title>
   <link rel="stylesheet" href="css/style.css">
-  <style media="screen">
-  #header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  @media only screen and (min-width: 1400px){
-      #header {
-      background: #000;
-      color: #fff;
-    }
-  }
-  </style>
 </head>
 
 <body>
@@ -27,9 +14,9 @@
       <img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bG9nb3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60
 " id="header-img" alt="company-logo">
       <nav id="nav-bar">
-        <button><a href="#section1" class="nav-link">section 1</a></button>
-        <button><a href="#section2" class="nav-link">section 2</a></button>
-        <button><a href="#section3" class="nav-link">section 3</a></button>
+        <button class="btn"><a href="#section1" class="nav-link">section 1</a></button>
+        <button class="btn"><a href="#section2" class="nav-link">section 2</a></button>
+        <button class="btn"><a href="#section3" class="nav-link">section 3</a></button>
       </nav>
     </header>
 
@@ -53,14 +40,15 @@
     </section>
 
     <!--form element-->
-    <form action="https://www.freecodecamp.org/email-submit" id="form">
-      <input type="email" name="email" id="email" placeholder="Enter your email here" required>
-      <input type="submit" id="submit" name="submit">
-    </form>
 
+    <section id="form-section">
+      <h2>Product Form</h2>
+      <form action="https://www.freecodecamp.org/email-submit" id="form">
+        <input type="email" name="email" id="email" placeholder="Enter your email here" required>
+        <input type="submit" id="submit" name="submit" class="btn">
+      </form>
+    </section>
   </div>
-
-
 
   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <script src="js/index.js"></script>

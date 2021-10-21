@@ -3,11 +3,12 @@ padding: 0;
 margin: 0;
 box-sizing: border-box;
 width: 100%;
+scroll-behavior: smooth;
 }
 
 .container{
-width: 80%;
-height: 100vh;
+width: 100%;
+height: auto;
 background-color: #fff;
 text-align: center;
 }
@@ -43,6 +44,22 @@ section {
     background: #000;
     color: #fff;
   }
+}
+
+.btn{
+width: 6rem;
+height: 2.1rem;
+background-color: rgb(122, 145, 248);
+border-radius: 5px;}
+button{
+margin-left: 2rem;
+}
+a{
+color:#fff;
+text-decoration: none;
+}
+#form-section{
+margin-bottom: 4rem;
 }
 /* @media (min-width: 1400px) {
   #header {

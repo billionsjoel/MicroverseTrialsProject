@@ -2,10 +2,11 @@ body,html{
 padding: 0;
 margin: 0;
 box-sizing: border-box;
+width: 100%;
 }
 
 .container{
-width: 100%;
+width: 80%;
 height: 100vh;
 background-color: #fff;
 text-align: center;
@@ -24,6 +25,7 @@ margin-right: 10%;
   padding: 10px;
   height: 2rem;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
 margin-top: -5rem;
 }
@@ -32,11 +34,20 @@ margin-top: -5rem;
 margin-top: 5rem;
 }
 
+section {
+  margin: 0 10%;
+}
 
-@media (min-width: 1400px) {
+@media only screen and (min-width: 1400px){
+    #header {
+    background: #000;
+    color: #fff;
+  }
+}
+/* @media (min-width: 1400px) {
   #header {
   background: #000;
   color: #fff;
   }
 
-}
+} */
